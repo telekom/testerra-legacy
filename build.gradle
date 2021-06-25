@@ -1,0 +1,35 @@
+ext {
+    moduleVersion = '1-SNAPSHOT'
+}
+
+allprojects {
+    apply plugin: 'java-library'
+
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+subprojects {
+    group 'io.testerra'
+    version moduleVersion
+    archivesBaseName = "testerra"
+
+    apply plugin: 'maven-publish'
+
+//    repositories {
+//        mavenLocal()
+//        mavenCentral()
+//    }
+
+    test {
+        ignoreFailures = true
+        useTestNG()
+        testLogging {
+            outputs.upToDateWhen { false }
+            showStandardStreams = true
+        }
+        options {
+            systemProperties(System.getProperties())
+        }
+    }
+}

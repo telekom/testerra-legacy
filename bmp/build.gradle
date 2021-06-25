@@ -1,0 +1,18 @@
+dependencies {
+//    api core_interop
+    api 'io.testerra:core-interop:1.3'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'javax.ws.rs:javax.ws.rs-api:2.0.1'
+
+//    compile 'net.lightbody.bmp:browsermob-proxy:2.1.1'
+    implementation group: 'net.lightbody.bmp', name: 'browsermob-proxy', version: '2.1.1', ext: 'pom'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.13'
+    implementation 'net.lightbody.bmp:browsermob-legacy:2.1.1'
+
+    testImplementation 'io.testerra:driver-ui-desktop:1.3'
+//    testImplementation driver_ui_desktop
+}
+
+test {
+    exclude '**'
+}
