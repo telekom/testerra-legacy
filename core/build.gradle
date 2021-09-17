@@ -1,0 +1,5 @@
+dependencies {
+    // <RESTUtils>
+    implementation 'com.sun.jersey:jersey-client:1.19.3'
+    // </RESTUtils
+}

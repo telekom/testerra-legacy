@@ -27,6 +27,11 @@ You can still use these modules, but we do not support them anymore. The module 
 [Testerra BMP module]: https://docs.testerra.io/testerra/1.3/index.html#_browser_mob_proxy_deprecated
 [Testerra BUP module]: https://docs.testerra.io/testerra/stable/index.html#_browserup_proxy
 
+## Legary Testerra components
+| Component | From module   | Latest version    | Old documentation     | Use instead           |
+| --------- | ------------- | ----------------- | --------------------- | --------------------- |
+| RestUtils | core          | 1.7               | n.a.                  | Use modern REST api like Jersey |               
+
 ## Code of Conduct
 
 This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) in version 2.0 as our code of conduct. Please see the details in our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
