@@ -1,4 +1,5 @@
 rootProject.name = 'testerra-legacy'
 include 'bmp'
 include 'core'
+include 'integration-tests'
 

@@ -1,0 +1,5 @@
+dependencies {
+    testImplementation 'io.testerra:driver-ui-desktop:1.7'
+    // https://mvnrepository.com/artifact/com.github.tomakehurst/wiremock
+    testImplementation "com.github.tomakehurst:wiremock-jre8:2.26.3"
+}
