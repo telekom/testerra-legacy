@@ -23,6 +23,7 @@ You can still use these modules, but we do not support them anymore. The module 
 | Module            | Latest version | Old documentation     | Use instead           |
 | ----------------- | -------------- | --------------------- | --------------------- |
 | BMP               | 1.3            | [Testerra BMP module] | [Testerra BUP module] |
+| Legacy report     | 1.8            | not documented        | report-ng module      |
 
 [Testerra BMP module]: https://docs.testerra.io/testerra/1.3/index.html#_browser_mob_proxy_deprecated
 [Testerra BUP module]: https://docs.testerra.io/testerra/stable/index.html#_browserup_proxy

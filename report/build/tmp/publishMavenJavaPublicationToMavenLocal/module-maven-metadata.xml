@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.testerra</groupId>
+  <artifactId>report</artifactId>
+  <versioning>
+    <latest>1.8-SNAPSHOT</latest>
+    <versions>
+      <version>1.8-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210913065636</lastUpdated>
+  </versioning>
+</metadata>

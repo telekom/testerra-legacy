@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.testerra",
+    "module": "report",
+    "version": "1.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "m62uvayhprcojin6oysuawqgye"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.testerra",
+          "module": "core",
+          "version": {
+            "requires": "1.8-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.testerra",
+          "module": "core-interop",
+          "version": {
+            "requires": "1.8-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "report-1.8-SNAPSHOT.jar",
+          "url": "report-1.8-SNAPSHOT.jar",
+          "size": 2917207,
+          "sha512": "3713e0d923a8e166bd51aa568931a846039e33d631cc1ae490968d1f2f68cdf20102731c37abc65b89587bbd298afc306572f2a20bf7ce75fbc776ab8363132b",
+          "sha256": "ac591fcfa72264a2c4f9949e3106e4e79d519910858b28dea26d0a9072ff94e1",
+          "sha1": "c626e7a973778792ba0b17514c94ac46d765678e",
+          "md5": "072060d7bc3fc04f488deeebe36a2776"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity",
+          "version": {
+            "requires": "1.7"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity-tools",
+          "version": {
+            "requires": "2.0"
+          }
+        },
+        {
+          "group": "org.jfree",
+          "module": "jfreechart",
+          "version": {
+            "requires": "1.0.19"
+          }
+        },
+        {
+          "group": "io.testerra",
+          "module": "core",
+          "version": {
+            "requires": "1.8-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.testerra",
+          "module": "core-interop",
+          "version": {
+            "requires": "1.8-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "report-1.8-SNAPSHOT.jar",
+          "url": "report-1.8-SNAPSHOT.jar",
+          "size": 2917207,
+          "sha512": "3713e0d923a8e166bd51aa568931a846039e33d631cc1ae490968d1f2f68cdf20102731c37abc65b89587bbd298afc306572f2a20bf7ce75fbc776ab8363132b",
+          "sha256": "ac591fcfa72264a2c4f9949e3106e4e79d519910858b28dea26d0a9072ff94e1",
+          "sha1": "c626e7a973778792ba0b17514c94ac46d765678e",
+          "md5": "072060d7bc3fc04f488deeebe36a2776"
+        }
+      ]
+    }
+  ]
+}

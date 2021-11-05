@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.testerra</groupId>
+  <artifactId>report</artifactId>
+  <version>1.8-SNAPSHOT</version>
+  <name>Testerra</name>
+  <description>Testerra test automation framework - report module</description>
+  <url>https://testerra.io</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MMS</id>
+      <name>Testerra Team T-Systems MMS</name>
+      <email>testerra@t-systems-mms.com</email>
+      <organization>T-Systems MMS</organization>
+      <organizationUrl>https://www.t-systems-mms.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/telekom/testerra.git</connection>
+    <developerConnection>scm:git:git://github.com/telekom/testerra.git</developerConnection>
+    <url>https://github.com/telekom/testerra</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.testerra</groupId>
+      <artifactId>core</artifactId>
+      <version>1.8-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.testerra</groupId>
+      <artifactId>core-interop</artifactId>
+      <version>1.8-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.velocity</groupId>
+      <artifactId>velocity</artifactId>
+      <version>1.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.velocity</groupId>
+      <artifactId>velocity-tools</artifactId>
+      <version>2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jfree</groupId>
+      <artifactId>jfreechart</artifactId>
+      <version>1.0.19</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
