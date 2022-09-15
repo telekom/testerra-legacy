@@ -3,4 +3,5 @@ include 'bmp'
 include 'core'
 include 'integration-tests'
 include 'report'
+include 'surefire-connector'
 

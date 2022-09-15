@@ -20,18 +20,19 @@ You can still use these modules, but we do not support them anymore. The module 
 
 ## Legacy Testerra modules
 
-| Module            | Latest version | Old documentation     | Use instead           |
-| ----------------- | -------------- | --------------------- | --------------------- |
-| BMP               | 1.3            | [Testerra BMP module] | [Testerra BUP module] |
-| Legacy report     | 1.8            | not documented        | report-ng module      |
+| Module             | Latest version | Old documentation     | Use instead                          |
+|--------------------|----------------|-----------------------|--------------------------------------|
+| BMP                | 1.3            | [Testerra BMP module] | [Testerra BUP module]                |
+| Legacy report      | 1.8            | not documented        | report-ng module                     |
+| Surefire connector | 2.0            | not documented        | Was internal used by some connectors |
 
 [Testerra BMP module]: https://docs.testerra.io/testerra/1.3/index.html#_browser_mob_proxy_deprecated
 [Testerra BUP module]: https://docs.testerra.io/testerra/stable/index.html#_browserup_proxy
 
 ## Legary Testerra components
-| Component | From module   | Latest version    | Old documentation     | Use instead           |
-| --------- | ------------- | ----------------- | --------------------- | --------------------- |
-| RestUtils | core          | 1.7               | n.a.                  | Use modern REST api like Jersey |               
+| Component | From module | Latest version | Old documentation | Use instead                     |
+|-----------|-------------|----------------|-------------------|---------------------------------|
+| RestUtils | core        | 1.7            | n.a.              | Use modern REST api like Jersey |               
 
 ## Code of Conduct
 
