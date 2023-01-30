@@ -19,9 +19,8 @@
  * under the License.
  *
  */
- package eu.tsystems.mms.tic.testframework.utils.xmlutils;
+package eu.tsystems.mms.tic.testframework.utils.xmlutils;
 
-import eu.tsystems.mms.tic.testframework.exceptions.SystemException;
 import org.apache.commons.io.IOUtils;
 import org.jsoup.nodes.Document;
 import org.slf4j.Logger;
@@ -37,7 +36,7 @@ import java.io.InputStream;
 
 /**
  * Abstract XML Utils class with initializer and helper methods.
- *
+ * <p>
  * Created by pele on 06.03.2015.
  */
 public abstract class AbstractXMLUtils {
@@ -53,12 +52,12 @@ public abstract class AbstractXMLUtils {
         try {
             factory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
         } catch (ParserConfigurationException e) {
-            throw new SystemException("Error disabling loading external dtd's. Document type definitions will be loaded externally.", e);
+            throw new RuntimeException("Error disabling loading external dtd's. Document type definitions will be loaded externally.", e);
         }
         try {
             return factory.newDocumentBuilder();
         } catch (ParserConfigurationException e) {
-            throw new SystemException("Error creating a DocumentBuilder. Won't be able to parse xPath", e);
+            throw new RuntimeException("Error creating a DocumentBuilder. Won't be able to parse xPath", e);
         }
     }
 
