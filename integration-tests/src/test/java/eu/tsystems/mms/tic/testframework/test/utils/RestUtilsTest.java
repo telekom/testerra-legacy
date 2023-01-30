@@ -1,4 +1,4 @@
-/*
+package eu.tsystems.mms.tic.testframework.test.utils;/*
  * Testerra
  *
  * (C) 2020, Eric Kubenka, T-Systems Multimedia Solutions GmbH, Deutsche Telekom AG

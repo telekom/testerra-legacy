@@ -29,10 +29,11 @@ You can still use these modules, but we do not support them anymore. The module 
 [Testerra BMP module]: https://docs.testerra.io/testerra/1.3/index.html#_browser_mob_proxy_deprecated
 [Testerra BUP module]: https://docs.testerra.io/testerra/stable/index.html#_browserup_proxy
 
-## Legary Testerra components
-| Component | From module | Latest version | Old documentation | Use instead                     |
-|-----------|-------------|----------------|-------------------|---------------------------------|
-| RestUtils | core        | 1.7            | n.a.              | Use modern REST api like Jersey |               
+## Legacy Testerra components
+| Component | From module | Latest version | Old documentation | Use instead                                                           |
+|-----------|-------------|----------------|-------------------|-----------------------------------------------------------------------|
+| RestUtils | core        | 1.7            | n.a.              | Use modern REST api like Jersey                                       |    
+| XMLUtils  | core        | 2.2            | n.a.              | Create your own parser based on current Java components or frameworks |
 
 ## Code of Conduct
 

@@ -2,4 +2,15 @@ dependencies {
     // <RESTUtils>
     implementation 'com.sun.jersey:jersey-client:1.19.3'
     // </RESTUtils
+
+    // <XMLUtils>
+    // These dependencies are exposed by XMLUtils.java
+    api 'org.jsoup:jsoup:1.7.2'
+    api 'org.jdom:jdom2:2.0.6'
+    api "javax.xml.bind:jaxb-api:2.3.0"
+    api "com.sun.xml.bind:jaxb-core:2.3.0"
+    api "com.sun.xml.bind:jaxb-impl:2.3.0"
+    api "javax.activation:activation:1.1"
+    api "xerces:xercesImpl:2.8.0"
+//    // </XML
 }
