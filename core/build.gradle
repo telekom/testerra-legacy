@@ -25,4 +25,12 @@ dependencies {
     api "javax.activation:activation:1.1"
     api "xerces:xercesImpl:2.8.0"
     // </XML
+
+    // <CSVTestDataReader>
+    implementation 'com.opencsv:opencsv:3.9'
+    // </CSVTestDataReader>
+
+    implementation('org.testng:testng:7.8.0')
+
+    implementation 'org.reflections:reflections:0.9.12'
 }

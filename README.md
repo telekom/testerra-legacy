@@ -30,10 +30,13 @@ You can still use these modules, but we do not support them anymore. The module 
 [Testerra BUP module]: https://docs.testerra.io/testerra/stable/index.html#_browserup_proxy
 
 ## Legacy Testerra components
-| Component | From module | Latest version | Old documentation | Use instead                                                           |
-|-----------|-------------|----------------|-------------------|-----------------------------------------------------------------------|
-| RestUtils | core        | 1.7            | n.a.              | Use modern REST api like Jersey                                       |    
-| XMLUtils  | core        | 2.2            | n.a.              | Create your own parser based on current Java components or frameworks |
+| Component         | From module | Latest version | Old documentation | Use instead                                                           |
+|-------------------|-------------|----------------|-------------------|-----------------------------------------------------------------------|
+| RestUtils         | core        | 1.7            | n.a.              | Use modern REST api like Jersey                                       |    
+| XMLUtils          | core        | 2.2            | n.a.              | Create your own parser based on current Java components or frameworks |
+| CSVTestDataReader | core        | 2.6            | [CSVTestData]     | Use native OpenCSV lib                                                | 
+
+[CSVTestData]: https://docs.testerra.io/testerra/2.6/index.html#_csv_reader_deprecated
 
 ## Code of Conduct
 
