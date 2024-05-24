@@ -20,21 +20,22 @@ You can still use these modules, but we do not support them anymore. The module 
 
 ## Legacy Testerra modules
 
-| Module             | Latest version | Old documentation     | Use instead                          |
-|--------------------|----------------|-----------------------|--------------------------------------|
-| BMP                | 1.3            | [Testerra BMP module] | [Testerra BUP module]                |
-| Legacy report      | 1.8            | not documented        | report-ng module                     |
-| Surefire connector | 2.0            | not documented        | Was internal used by some connectors |
+| Module             | Latest version | Old documentation     | Use instead                                                                           |
+|--------------------|----------------|-----------------------|---------------------------------------------------------------------------------------|
+| BMP                | 1.3            | [Testerra BMP module] | [Testerra BUP module]                                                                 |
+| Legacy report      | 1.8            | not documented        | report-ng module                                                                      |
+| Surefire connector | 2.0            | not documented        | Was internal used by some connectors                                                  |
+| BrowserUp Proxy    | 2.8            | [Testerra BUP module] | For Basic Auth: Selenium 4 DevTools, for other https://github.com/mitmproxy/mitmproxy |       
 
 [Testerra BMP module]: https://docs.testerra.io/testerra/1.3/index.html#_browser_mob_proxy_deprecated
-[Testerra BUP module]: https://docs.testerra.io/testerra/stable/index.html#_browserup_proxy
+[Testerra BUP module]: https://docs.testerra.io/testerra/2.8/index.html#_browserup_proxy
 
 ## Legacy Testerra components
 | Component         | From module | Latest version | Old documentation | Use instead                                                           |
 |-------------------|-------------|----------------|-------------------|-----------------------------------------------------------------------|
 | RestUtils         | core        | 1.7            | n.a.              | Use modern REST api like Jersey                                       |    
 | XMLUtils          | core        | 2.2            | n.a.              | Create your own parser based on current Java components or frameworks |
-| CSVTestDataReader | core        | 2.6            | [CSVTestData]     | Use native OpenCSV lib                                                | 
+| CSVTestDataReader | core        | 2.6            | [CSVTestData]     | Use native OpenCSV lib                                                |
 
 [CSVTestData]: https://docs.testerra.io/testerra/2.6/index.html#_csv_reader_deprecated
 
